@@ -112,8 +112,7 @@ class Ui_MainWindow(object):
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setMinimumSize(QSize(50, 50))
         self.pushButton_3.setMaximumSize(QSize(50, 50))
-        self.pushButton_3.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000");\n"
-"background-color: rgb(16, 79, 101);")
+        self.pushButton_3.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000")
 
         self.verticalLayout_25.addWidget(self.pushButton_3)
 
@@ -134,8 +133,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setObjectName(u"pushButton_4")
         self.pushButton_4.setMinimumSize(QSize(50, 50))
         self.pushButton_4.setMaximumSize(QSize(50, 50))
-        self.pushButton_4.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000");\n"
-"background-color: rgb(16, 79, 101);")
+        self.pushButton_4.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000")
 
         self.verticalLayout_24.addWidget(self.pushButton_4)
 
