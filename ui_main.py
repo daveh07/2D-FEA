@@ -26,7 +26,7 @@ class Ui_MainWindow(object):
         MainWindow.resize(1073, 772)
         self.centralwidget = QWidget(MainWindow)
         self.centralwidget.setObjectName(u"centralwidget")
-        self.centralwidget.setStyleSheet(u"background-color: rgb(0, 0, 0);")
+        self.centralwidget.setStyleSheet(u"background-color: #1f2335;")
         self.verticalLayout = QVBoxLayout(self.centralwidget)
         self.verticalLayout.setSpacing(0)
         self.verticalLayout.setObjectName(u"verticalLayout")
@@ -60,7 +60,7 @@ class Ui_MainWindow(object):
         self.ToolBarContainer = QFrame(self.MainContainer)
         self.ToolBarContainer.setObjectName(u"ToolBarContainer")
         self.ToolBarContainer.setMaximumSize(QSize(70, 16777215))
-        self.ToolBarContainer.setStyleSheet(u"background-color: rgb(0, 0, 0);")
+        self.ToolBarContainer.setStyleSheet(u"background-color: #1f2335;")
         self.ToolBarContainer.setFrameShape(QFrame.NoFrame)
         self.ToolBarContainer.setFrameShadow(QFrame.Plain)
         self.ToolBarContainer.setLineWidth(0)
@@ -91,8 +91,7 @@ class Ui_MainWindow(object):
         self.pushButton.setObjectName(u"pushButton")
         self.pushButton.setMinimumSize(QSize(50, 50))
         self.pushButton.setMaximumSize(QSize(50, 50))
-        self.pushButton.setStyleSheet(u"color: rgb(246, 245, 244);\n"
-"background-color: rgb(16, 79, 101);")
+        self.pushButton.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000")
 
         self.verticalLayout_26.addWidget(self.pushButton)
 
@@ -113,7 +112,7 @@ class Ui_MainWindow(object):
         self.pushButton_3.setObjectName(u"pushButton_3")
         self.pushButton_3.setMinimumSize(QSize(50, 50))
         self.pushButton_3.setMaximumSize(QSize(50, 50))
-        self.pushButton_3.setStyleSheet(u"color: rgb(246, 245, 244);\n"
+        self.pushButton_3.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000");\n"
 "background-color: rgb(16, 79, 101);")
 
         self.verticalLayout_25.addWidget(self.pushButton_3)
@@ -135,7 +134,7 @@ class Ui_MainWindow(object):
         self.pushButton_4.setObjectName(u"pushButton_4")
         self.pushButton_4.setMinimumSize(QSize(50, 50))
         self.pushButton_4.setMaximumSize(QSize(50, 50))
-        self.pushButton_4.setStyleSheet(u"color: rgb(246, 245, 244);\n"
+        self.pushButton_4.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000");\n"
 "background-color: rgb(16, 79, 101);")
 
         self.verticalLayout_24.addWidget(self.pushButton_4)
@@ -157,8 +156,7 @@ class Ui_MainWindow(object):
         self.pushButton_5.setObjectName(u"pushButton_5")
         self.pushButton_5.setMinimumSize(QSize(50, 50))
         self.pushButton_5.setMaximumSize(QSize(50, 50))
-        self.pushButton_5.setStyleSheet(u"color: rgb(246, 245, 244);\n"
-"background-color: rgb(16, 79, 101);")
+        self.pushButton_5.setStyleSheet(u"background-color: #7aa2f7 ; color: #000000")
 
         self.verticalLayout_23.addWidget(self.pushButton_5)
 
@@ -218,6 +216,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.setObjectName(u"horizontalLayout_5")
         self.WidthInput = QLineEdit(self.frame_16)
         self.WidthInput.setObjectName(u"WidthInput")
+        self.WidthInput.setStyleSheet(u"background-color: #414868;")
 
         self.horizontalLayout_5.addWidget(self.WidthInput)
 
@@ -264,6 +263,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_6.setContentsMargins(9, 9, 9, 9)
         self.LengthInput = QLineEdit(self.frame_18)
         self.LengthInput.setObjectName(u"LengthInput")
+        self.LengthInput.setStyleSheet(u"background-color: #414868;")
 
         self.verticalLayout_6.addWidget(self.LengthInput)
 
@@ -310,6 +310,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_7.setObjectName(u"verticalLayout_7")
         self.ThicknessInput = QLineEdit(self.frame_20)
         self.ThicknessInput.setObjectName(u"ThicknessInput")
+        self.ThicknessInput.setStyleSheet(u"background-color: #414868;")
 
         self.verticalLayout_7.addWidget(self.ThicknessInput)
 
@@ -345,7 +346,7 @@ class Ui_MainWindow(object):
         self.RenderPlateBtn.setObjectName(u"RenderPlateBtn")
         self.RenderPlateBtn.setMinimumSize(QSize(60, 50))
         self.RenderPlateBtn.setMaximumSize(QSize(85, 16777215))
-        self.RenderPlateBtn.setStyleSheet(u"background-color: rgb(143, 240, 164);")
+        self.RenderPlateBtn.setStyleSheet(u"background-color: #41a6b5; color: #ffffff")
         self.RenderPlateBtn.setFlat(False)
 
         self.verticalLayout_10.addWidget(self.RenderPlateBtn)
@@ -395,6 +396,7 @@ class Ui_MainWindow(object):
         self.ElementTypeInput = QComboBox(self.frame_22)
         self.ElementTypeInput.addItem("")
         self.ElementTypeInput.addItem("")
+        self.ElementTypeInput.setStyleSheet(u"background-color: #414868;")
         self.ElementTypeInput.setObjectName(u"ElementTypeInput")
 
         self.horizontalLayout_9.addWidget(self.ElementTypeInput)
@@ -442,6 +444,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_13.setObjectName(u"verticalLayout_13")
         self.verticalLayout_13.setContentsMargins(10, 0, 10, 0)
         self.MeshSizeInput = QLineEdit(self.frame_23)
+        self.MeshSizeInput.setStyleSheet(u"background-color: #414868;")
         self.MeshSizeInput.setObjectName(u"MeshSizeInput")
 
         self.verticalLayout_13.addWidget(self.MeshSizeInput)
@@ -489,6 +492,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_14.setContentsMargins(-1, 0, -1, 0)
         self.GenerateMeshBtn = QPushButton(self.frame_24)
         self.GenerateMeshBtn.setObjectName(u"GenerateMeshBtn")
+        self.GenerateMeshBtn.setStyleSheet(u"background-color: #414868;")
 
         self.verticalLayout_14.addWidget(self.GenerateMeshBtn)
 
@@ -511,7 +515,9 @@ class Ui_MainWindow(object):
         self.MaterialPropertiesInput = QComboBox(self.frame_27)
         self.MaterialPropertiesInput.addItem("")
         self.MaterialPropertiesInput.addItem("")
+        self.MaterialPropertiesInput.setStyleSheet(u"background-color: #414868;")
         self.MaterialPropertiesInput.setObjectName(u"MaterialPropertiesInput")
+
 
         self.verticalLayout_21.addWidget(self.MaterialPropertiesInput)
 
@@ -556,6 +562,7 @@ class Ui_MainWindow(object):
         self.SupportConditionsInput.addItem("")
         self.SupportConditionsInput.addItem("")
         self.SupportConditionsInput.addItem("")
+        self.SupportConditionsInput.setStyleSheet(u"background-color: #414868;")
         self.SupportConditionsInput.setObjectName(u"SupportConditionsInput")
 
         self.verticalLayout_16.addWidget(self.SupportConditionsInput)
@@ -601,6 +608,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_17 = QVBoxLayout(self.frame_30)
         self.verticalLayout_17.setObjectName(u"verticalLayout_17")
         self.LoadInput = QLineEdit(self.frame_30)
+        self.LoadInput.setStyleSheet(u"background-color: #414868;")
         self.LoadInput.setObjectName(u"LoadInput")
 
         self.verticalLayout_17.addWidget(self.LoadInput)
@@ -669,7 +677,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_19.setContentsMargins(0, 0, 0, 0)
         self.pushButton_2 = QPushButton(self.frame_33)
         self.pushButton_2.setObjectName(u"pushButton_2")
-        self.pushButton_2.setStyleSheet(u"background-color: rgb(153, 193, 241);")
+        self.pushButton_2.setStyleSheet(u"background-color: #c53b53 ;")
 
         self.verticalLayout_19.addWidget(self.pushButton_2)
 
