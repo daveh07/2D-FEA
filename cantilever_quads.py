@@ -112,8 +112,8 @@ else:
 ops.analyze(1)
 
 # Visualization
-# opsvis.plot_model()
-# opsvis.plot_loads_2d()
+opsvis.plot_model()
+opsvis.plot_load()
 # plt.figure()
 
 # Plot von Mises stress without mesh edges

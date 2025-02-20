@@ -1,6 +1,6 @@
-lc = 1.0;
-width = 0.45;
-length = 0.23;
+lc = 22.0;
+width = 10.0;
+length = 5.0;
 
 Point(1) = {0, 0, 0, lc};
 Point(2) = {width, 0, 0, lc};

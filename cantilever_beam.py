@@ -111,7 +111,7 @@ ops.analyze(1)
 
 # Visualization
 opsvis.plot_model()
-opsvis.plot_loads_2d()
+opsvis.plot_load()
 plt.figure()
 sig_out = opsvis.sig_out_per_node("all")
 

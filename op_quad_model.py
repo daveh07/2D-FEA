@@ -21,7 +21,7 @@ def read_mesh_file(mesh_file):
 E = 30100.0  # Young's Modulus (MPa)
 nu = 0.2  # Poisson's Ratio
 thickness = 0.35  # Plate thickness (mm)
-thickness = thickness * 1000  # (Conver to m)
+thickness = thickness * 1000  # (Convert to m)
 
 # Read node coordinates and element connectivity from mesh file
 node_coords, element_connectivity = read_mesh_file('rectangle.msh')
@@ -110,7 +110,7 @@ ops.analyze(1)
 
 # Visualization
 opsvis.plot_model()
-opsvis.plot_loads_2d()
+opsvis.plot_load()
 plt.figure()
 
 # Plot von Mises stress without mesh edges
