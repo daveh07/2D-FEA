@@ -9,7 +9,7 @@
 - Choose a mesh sizem eg) 0.25
 <br>
 - A mesh file is generated:
-- ![Screenshot From 2025-05-21 21-05-43](https://github.com/user-attachments/assets/8f2e528c-a1b0-48f6-ad12-1d429e24c4da)
+- ![image](https://github.com/user-attachments/assets/P1.png)
 <br>
 - This mesh file is used in the file, op_quad_model.py & cantilever_quads.py
 - Run either file and press 1 to apply load along top edge. (Other loading criteria is currently being implemented)
