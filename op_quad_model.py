@@ -2,7 +2,7 @@ import meshio
 import numpy as np
 import openseespy.opensees as ops
 import opsvis
-import vfo.vfo as vfo
+# import vfo.vfo as vfo
 from matplotlib import pyplot as plt
 
 
